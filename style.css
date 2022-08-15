@@ -8,22 +8,22 @@ body{
     background: #dbdada;
 }
 .user{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin-left: 15px;
     margin-top: 15px;
 }
 .userss{
-    width: 330px;
-    height: 330px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     background-color: #f5f3f3;
 }
 .container{
     display: flex;
     width: 1200px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .left
 {
@@ -32,7 +32,7 @@ body{
 }
 .right{
     width: 60%;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 .name{
     font-family: sans-serif;
@@ -40,7 +40,7 @@ body{
     width: 10%;
     font-weight: 500;
     letter-spacing: 5px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .namesp{
     font-weight: bold;
@@ -162,4 +162,78 @@ body{
 }
 .prog{
     display: grid;
+    margin-left: 30px;
+}
+.prog1{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 220px;
+}
+.prog1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    
+    
+}
+.prog2{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 220px;
+}
+.prog2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    
+    
+}
+.prog3{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 220px;
+}
+.prog3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    
+    
+}
+.progp{
+    margin-top: 15px;
+    position: absolute;
 }
