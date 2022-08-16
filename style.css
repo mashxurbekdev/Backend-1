@@ -82,6 +82,15 @@ body{
     margin-left: 20px;
     margin-top: 5px;
 }
+.ins{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.ins p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
 .work{
     background-color: black;
     color: #fff;
@@ -150,6 +159,7 @@ body{
 .edusp{
     font-weight: 600;
 }
+
 .skill{
     background-color: black;
     color: #fff;
@@ -172,7 +182,7 @@ body{
     background-color: #f1f1f1;
     border-radius: 4px;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-left: 220px;
 }
 .prog1::after{
@@ -195,7 +205,7 @@ body{
     background-color: #f1f1f1;
     border-radius: 4px;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-left: 220px;
 }
 .prog2::after{
@@ -218,7 +228,7 @@ body{
     background-color: #f1f1f1;
     border-radius: 4px;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-left: 220px;
 }
 .prog3::after{
@@ -233,7 +243,49 @@ body{
     
     
 }
-.progp{
-    margin-top: 15px;
+
+.skillp{
+    margin-top: 40px;
     position: absolute;
+}
+.skillp1{
+    margin-top: 90px;
+    position: absolute;
+}
+.skillp2{
+    margin-top: 140px;
+    position: absolute;
+}
+.refer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 80px;
+    width: 500px;
+
+}
+.refp1{
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+.refp1 span
+{
+    font-weight: 800;
+}
+.refp2{
+    margin-top: 15px;
+}
+.refp3{
+    margin-top: 15px;
+}
+.referdd{
+    width: 500px;
+    display: flex;
+    margin-top: 15px;
+}
+.refers2{
+    margin-left: 100px;
 }
